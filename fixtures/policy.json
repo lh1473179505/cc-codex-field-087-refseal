@@ -1,0 +1,11 @@
+{
+  "protected_refs": [
+    "refs/heads/main",
+    "refs/heads/release"
+  ],
+  "allow_force": false,
+  "committer_keys": {
+    "alice@shop.example": "alice-key",
+    "bob@shop.example": "bob-key"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "alice-key": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "bob-key": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "mallory-key": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+}

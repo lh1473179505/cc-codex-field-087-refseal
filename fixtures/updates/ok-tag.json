@@ -1,0 +1,76 @@
+{
+  "old_oid": "6eda5bc2725d5cd30c85f66da0bc9f51623e5f02",
+  "new_oid": "cbbb861a68c0432b953911bcc1d99409cf86a781",
+  "ref": "refs/tags/v1.0.0",
+  "objects": {
+    "a632d230bf112d206f1098e88994dd68b01b1b82": {
+      "type": "commit",
+      "tree": "c441741df608f0ee344fe66abf4167232892edc2",
+      "parents": [],
+      "author": "Alice <alice@shop.example>",
+      "committer": "Alice <alice@shop.example>",
+      "message": "init"
+    },
+    "7e137362c3143b4bbf9e12161a28f0002704b051": {
+      "type": "commit",
+      "tree": "f8b932d8d89ddc642e8c18fd68f291d3af68455e",
+      "parents": [
+        "a632d230bf112d206f1098e88994dd68b01b1b82"
+      ],
+      "author": "Alice <alice@shop.example>",
+      "committer": "Alice <alice@shop.example>",
+      "message": "feature"
+    },
+    "6eda5bc2725d5cd30c85f66da0bc9f51623e5f02": {
+      "type": "commit",
+      "tree": "9c685d35e5b99e7c7cc949ab89cdba21a007ffa1",
+      "parents": [
+        "7e137362c3143b4bbf9e12161a28f0002704b051"
+      ],
+      "author": "Alice <alice@shop.example>",
+      "committer": "Alice <alice@shop.example>",
+      "message": "more"
+    },
+    "f6c580f9abb037b2de47b34b94d078caf9898510": {
+      "type": "commit",
+      "tree": "2b581660f4ff7077746bf564bc21c79ce8fe7e17",
+      "parents": [
+        "6eda5bc2725d5cd30c85f66da0bc9f51623e5f02",
+        "7e137362c3143b4bbf9e12161a28f0002704b051"
+      ],
+      "author": "Bob <bob@shop.example>",
+      "committer": "Bob <bob@shop.example>",
+      "message": "merge c2 into main"
+    },
+    "cbbb861a68c0432b953911bcc1d99409cf86a781": {
+      "type": "tag",
+      "object": "6eda5bc2725d5cd30c85f66da0bc9f51623e5f02",
+      "object_type": "commit",
+      "tag": "v1.0.0",
+      "tagger": "Alice <alice@shop.example>",
+      "message": "tag v1.0.0"
+    }
+  },
+  "signatures": {
+    "a632d230bf112d206f1098e88994dd68b01b1b82": {
+      "key_id": "alice-key",
+      "mac": "baacc9b3e503105bd5306a6a25d5ac43894f392f91f13e3f02bf6598610feae0"
+    },
+    "7e137362c3143b4bbf9e12161a28f0002704b051": {
+      "key_id": "alice-key",
+      "mac": "20ab0db4f565eec843d8ba877acb7fe19403f2bf0abd4460df9eed9fd0df96f1"
+    },
+    "6eda5bc2725d5cd30c85f66da0bc9f51623e5f02": {
+      "key_id": "alice-key",
+      "mac": "ffed1649b90333985c04b36760a91e88c32428ed607aa4f671b622d50286e88c"
+    },
+    "f6c580f9abb037b2de47b34b94d078caf9898510": {
+      "key_id": "bob-key",
+      "mac": "52d6a026a923f6a11c9c2f44c83973666b10dd465e8a179489cb73e52d508f4a"
+    },
+    "cbbb861a68c0432b953911bcc1d99409cf86a781": {
+      "key_id": "alice-key",
+      "mac": "423417f636a32155436d43aea02896c239598c15a701de8f82a815054ae29280"
+    }
+  }
+}
